@@ -68,13 +68,13 @@ def back():
 ###-----[ LOGO BANNER ]-----###
 def banner():
  prints(panel(f"""{H2}                                   
-P O R O N G  X D
+ www.WAPBARU.com
 """,style=f"white"))
 ###-----[ LOGIN COOKIES V1 ]-----###
 ses = requests.Session()
 def awalan():
 	clear();banner()
-	print(f"\n{P}  - selamat datang di tools porong xd mohon gunakan sc ini dengan bijak. {P}")
+	print(f"\n{P}  - selamat datang di tools wapbaru.com mohon gunakan tools ini dengan bijak. {P}")
 	menu = input(f"\n{P}  - 1. login cookies. \n  - 2. crack id via file nologin. \n  - 3. cek hasil crack. \n  - pilih 1/3 : ")
 	if menu in ["01","1"]:
 		login()
