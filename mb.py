@@ -81,7 +81,7 @@ def back():
 #------------------[ LOGO-BANNER ]-----------------#
 def banner():
 	clear()
-	rfn_xd(f"{P}*--> Sc Free Jangan Di Prem'in Master\n*--> Pakai Sewajarnya Aja Master\n*--> Salam Alok Awakening{N}\n*--> Recode By {H}RFN{N}")
+	rfn_xd(f"{P}*--> Order Licensi\n*-->visit\n*-->{N}\n*--> www {H}Wapbaru{N} .com")
 #--------------------[ BAGIAN-MASUK ]--------------#
 ses = requests.Session()
 def login():
