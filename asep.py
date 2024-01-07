@@ -68,17 +68,13 @@ def back():
 ###-----[ LOGO BANNER ]-----###
 def banner():
  prints(panel(f"""{H2}                                   
- _____                __ __                 
-|  _  |___ ___ ___   |  |  |_ _ ___ _ _ ___ 
-|     |_ -| -_| . |  |_   _| | |_ -| | | . |
-|__|__|___|___|  _|    |_| |___|___|___|  _|
-              |_|                      |_|
+www.wapbaru.com
 """,style=f"white"))
 ###-----[ LOGIN COOKIES V1 ]-----###
 ses = requests.Session()
 def awalan():
 	clear();banner()
-	print(f"\n{P}  - selamat datang di tools easybrute,silahkan gunakan tools dengan bijak. {P}")
+	print(f"\n{P}  - join http://wapbaru.com/join.html {P}")
 	menu = input(f"\n{P}  - 1. login cookies. \n  - 2. crack id via file nologin. \n  - 3. cek hasil crack. \n  - pilih 1/3 : ")
 	if menu in ["01","1"]:
 		login()
