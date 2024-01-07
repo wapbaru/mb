@@ -81,7 +81,7 @@ def back():
 #------------------[ LOGO-BANNER ]-----------------#
 def banner():
 	clear()
-	rfn_xd(f"{P}*--> Order Licensi\n*-->visit\n*-->{N}\n*--> www {H}Wapbaru{N} .com")
+	rfn_xd(f"{P}* www {H}Wapbaru{N} .com")
 #--------------------[ BAGIAN-MASUK ]--------------#
 ses = requests.Session()
 def login():
@@ -137,13 +137,13 @@ def menu(my_name,my_id):
 	banner()
 	print('')
 	ip = requests.get("https://api.ipify.org").text
-	rfn_xd(f'[{H}>{N}] Your Idz : {my_id}\n[{H}>{N}] Your Ip : {ip}')
+	rfn_xd(f'[{H}>{N}] Your Id : {my_id}\n[{H}>{N}] Your Ip : {ip}')
 	print('')
 	rfn_xd(f'{P}1. Crack Public\n2. Cek Hasil\n0. Exit{N}')
 	_____rfn__xd_____ = input('[?] Select : ')
 	print('')
 	if _____rfn__xd_____ in ['1']:
-		idt = input(f'[{H}>{N}] Masukan Idz Target : ')
+		idt = input(f'[{H}>{N}] Masukan Id Target : ')
 		dump(idt,"",{"cookie":cok},token)
 		setting()
 	if _____rfn__xd_____ in ['2']:
