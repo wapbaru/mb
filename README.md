@@ -1,8 +1,4 @@
-c
-
 COMMAND DASAR TERMUX
-
-
 termux-setup-storage
 apt list 
 apt update 
