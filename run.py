@@ -752,7 +752,7 @@ def passwrd():
     else:
         Console(width=50, style="bold hot_pink2").print(
             Panel(
-                "[italic green]love Sayangku [italic white]",
+                "[italic green]terimakasih [italic white]",
                 subtitle="",
                 subtitle_align="left",
             )
