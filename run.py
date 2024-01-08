@@ -236,7 +236,7 @@ def menu():
         login()
     Console(width=50, style="bold hot_pink2").print(
         Panel(
-            "[italic green]1.[italic white] Crack ID Publik [italic green] [ ON ] \n[italic green]2.[italic white] Crack ID Massal [italic green] [ ON ] \n[italic green]3.[italic white] Crack File [italic red] [ OFF ] \n[italic green]4.[italic white] Dump ID Ke File [italic green] [ ON ] \n[italic green]5.[italic white] Order Licensi \n[italic green]0.[italic white] Keluar",
+            "[italic green]1.[italic white] Crack ID Publik [italic green] [ ON ] \n[italic green]2.[italic white] Crack ID Massal [italic green] [ ON ] \n[italic green]3.[italic white] Crack File [italic red] [ OFF ] \n[italic green]4.[italic white] Dump ID Ke File [italic green] [ ON ] \n[italic green]5.[italic white] Order Licensi [italic green] [ WEB ] \n[italic green]0.[italic white] Keluar",
             subtitle="╭───",
             subtitle_align="left",
             title="[bold green]-[bold green]-[bold green]-[hot_pink2] (BAGIAN MENU) [bold green]-[bold green]-[bold green]<",
