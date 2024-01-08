@@ -151,7 +151,7 @@ def login():
             "[italic green]masukan cookie anda saran jangan pake akun pribadi[italic white]",
             subtitle="╭───",
             subtitle_align="left",
-            title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] (MASUKAN COOKIE) [bold green]<[bold yellow]<[bold red]<",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] (MASUKAN COOKIE) [bold green]-[bold green]-[bold green]-",
         )
     )
     cok = Console().input("[bold hot_pink2]   ╰─> ")
@@ -239,7 +239,7 @@ def menu():
             "[italic green]1.[italic white] Crack Publik [italic green] [ ON ] \n[italic green]2.[italic white] Crack Massal [italic green] [ ON ] \n[italic green]3.[italic white] Crack File [italic red] [ OFF ] \n[italic green]4.[italic white] Dump Id Ke File [italic green] [ ON ] \n[italic green]5.[italic white] Lapor Bug \n[italic green]0.[italic white] Keluar",
             subtitle="╭───",
             subtitle_align="left",
-            title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] (BAGIAN MENU) [bold green]<[bold yellow]<[bold red]<",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] (BAGIAN MENU) [bold green]-[bold green]-[bold green]<",
         )
     )
     asepyusup = Console().input("[bold hot_pink2]   ╰─> ")
@@ -249,7 +249,7 @@ def menu():
                 "[italic green]Gunakan uid Publik,Jangan Perivat[italic white]",
                 subtitle="╭───",
                 subtitle_align="left",
-                title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] (UID PUBLIK) [bold green]<[bold yellow]<[bold red]<",
+                title="[bold green]-[bold green]-[bold green]-[hot_pink2] (UID PUBLIK) [bold green]-[bold green]-[bold green]-",
             )
         )
         idt = Console().input("[bold hot_pink2]   ╰─> ")
@@ -293,7 +293,7 @@ def Gabung():
         )
     )
     loading()
-    os.system("xdg-open https://www.facebook.com/zuck")
+    os.system("xdg-open https://www.facebook.com/idhostinger")
     time.sleep(5)
     menu()
 
@@ -486,7 +486,7 @@ def crack_file():
                 "[italic green] BUAT DUMP DULU KETIK Y/T[italic white]",
                 subtitle="╭───",
                 subtitle_align="left",
-                title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] (ASEP DUMP) [bold green]<[bold yellow]<[bold red]<",
+                title="[bold green]-[bold green]-[bold green]-[hot_pink2] (Wapbaru DUMP) [bold green]-[bold green]-[bold green]-",
             )
         )
         kontol = Console().input("[bold hot_pink2]   ╰─> ")
@@ -592,7 +592,7 @@ def setting():
             "[italic green]1.[italic white] Urutan Olid ke New \n[italic green]2.[italic white] Urutan New ke olid \n[italic green]3.[italic white] Random ",
             subtitle="╭───",
             subtitle_align="left",
-            title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] (BAGIAN URUTAN) [bold green]<[bold yellow]<[bold red]<",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] (BAGIAN URUTAN) [bold green]-[bold green]-[bold green]-",
         )
     )
     hu = Console().input("[bold hot_pink2]   ╰─> ")
@@ -627,7 +627,7 @@ def setting():
             "[italic green]1.[italic white] Validate",
             subtitle="╭───",
             subtitle_align="left",
-            title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] (BAGIAN METHODE) [bold green]<[bold yellow]<[bold red]<",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] (BAGIAN METHODE) [bold green]-[bold green]-[bold green]-",
         )
     )
     hc = Console().input("[bold hot_pink2]   ╰─> ")
@@ -649,7 +649,7 @@ def setting():
             "[italic white]Password Tambahan Pilih [italic green](Y atu T)[italic white]",
             subtitle="╭───",
             subtitle_align="left",
-            title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] (PASSWORD) [bold green]<[bold yellow]<[bold red]<",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] (PASSWORD) [bold green]-[bold green]-[bold green]-",
         )
     )
     pwplus = Console().input("[bold hot_pink2]   ╰─> ")
@@ -657,10 +657,10 @@ def setting():
         pwpluss.append("ya")
         Console(width=50, style="bold hot_pink2").print(
             Panel(
-                "[italic white]Masukan kata sandi tambahan contoh [italic green]Bagong,Ngentod[italic white]\nSaran kata sandi daeraah Target Contoh [italic green]kalimantan,bandung,jonggol[italic white]",
+                "[italic white]Masukan kata sandi tambahan contoh [italic green]musik123,obatnyamuk[italic white]\nSaran kata sandi daeraah Target Contoh [italic green]majalengka,kadipaten,maja[italic white]",
                 subtitle="╭───",
                 subtitle_align="left",
-                title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] (TAMBAHKAN PASSWORD) [bold green]<[bold yellow]<[bold red]<",
+                title="[bold green]-[bold green]-[bold green]-[hot_pink2] (TAMBAHKAN PASSWORD) [bold green]-[bold green]-[bold green]-",
             )
         )
         pwku = Console().input("[bold hot_pink2]   ╰─> ")
@@ -678,7 +678,7 @@ def passwrd():
         Panel(
             """[bold white]Hasil Crack[bold green] Ok[bold white] Tersimpan Di :[bold green] Results/Ok.txt
 [bold white]Hasil Crack[bold red] Cp[bold white] Tersimpan Di :[bold red] Results/Cp.txt""",
-            title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] (Results Crack) [bold green]<[bold yellow]<[bold red]",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] (Results Crack) [bold green]-[bold green]-[bold green]",
         )
     )
     with tred(max_workers=30) as pool:
@@ -743,7 +743,7 @@ def passwrd():
             "[italic green]Lanjut apa Udah ? Pilih (Y/T) [italic white]",
             subtitle="╭───",
             subtitle_align="left",
-            title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] (SELESAI) [bold green]<[bold yellow]<[bold red]<",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] (SELESAI) [bold green]-[bold green]-[bold green]-",
         )
     )
     woi = Console().input("[bold hot_pink2]   ╰─> ")
@@ -752,7 +752,7 @@ def passwrd():
     else:
         Console(width=50, style="bold hot_pink2").print(
             Panel(
-                "[italic green]love Sayangku [italic white]",
+                "[italic green]Terimakasih... [italic white]",
                 subtitle="",
                 subtitle_align="left",
             )
@@ -805,7 +805,7 @@ def crack(idf, pwv):
                 )
                 tree.add(f"[bold red]useragent : {ua}", style="bold white")
                 print(tree)
-                open("CP/" + "ASEP-CP.txt", "a").write(idf + "|" + pw + "\n")
+                open("CP/" + "ded-fb.txt", "a").write(idf + "|" + pw + "\n")
                 akun.append(idf + "|" + pw)
                 cp += 1
                 break
@@ -832,17 +832,15 @@ def asep():
     os.system("cls" if os.name == "nt" else "clear")
     Console(width=50, style="bold hot_pink2").print(
         Panel(
-            """[bold red]●[bold yellow] ●[bold green] ●                               
- _____                __ __ _____             
-|  _  |___ ___ ___   |  |  |  |  |___ _ _ ___ 
-|     |_ -| -_| . |  |_   _|  |  |_ -| | | . |
-|__|__|___|___|  _|    |_| |_____|___|___|  _|
-              |_|                        |_|  
+            """[bold green]●[bold green] ●[bold green] ●                               
 
-[bold blue]                SUKAMAKAMUR[bold blue]""",
-            title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] SC GERATIS [bold green]<[bold yellow]<[bold red]<",
+
+[bold white]               𝕨𝕨𝕨.𝕎𝕒𝕡𝕓𝕒𝕣𝕦.𝕔𝕠𝕞 [bold white]""",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] facebook tools [bold green]-[bold green]-[bold green]-",
         )
     )
+
+
 
 
 # -----------------------[ SYSTEM-CONTROL ]--------------------#
