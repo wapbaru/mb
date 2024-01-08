@@ -151,13 +151,13 @@ def login():
             "[italic green]masukan cookie anda saran jangan pake akun pribadi[italic white]",
             subtitle="╭───",
             subtitle_align="left",
-            title="[bold green]>[bold green]>[bold green]>[hot_pink2] (MASUKAN COOKIE) [bold green]<[bold green]<[bold green]<",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] (MASUKAN COOKIE) [bold green]-[bold green]-[bold green]-",
         )
     )
     cok = Console().input("[bold hot_pink2]   ╰─> ")
     try:
         head = {
-            "User-Agent": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Linux; Android 11; AC2003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36"
         }
         link = ses.get(
             "https://web.facebook.com/adsmanager?_rdc=1&_rdr",
@@ -168,7 +168,7 @@ def login():
         if len(find) == 0:
             Console(width=50, style="bold hot_pink2").print(
                 Panel(
-                    "[italic green]Cookie Valid Silahkan cari cookies baru atu buat cookie Baru [italic white]",
+                    "[italic green]Cookie inValid Silahkan cari cookies baru atu buat cookie Baru [italic white]",
                     subtitle="",
                     subtitle_align="left",
                 )
@@ -239,7 +239,7 @@ def menu():
             "[italic green]1.[italic white] Crack Publik [italic green] [ ON ] \n[italic green]2.[italic white] Crack Massal [italic green] [ ON ] \n[italic green]3.[italic white] Crack File [italic red] [ OFF ] \n[italic green]4.[italic white] Dump Id Ke File [italic green] [ ON ] \n[italic green]5.[italic white] Lapor Bug \n[italic green]0.[italic white] Keluar",
             subtitle="╭───",
             subtitle_align="left",
-            title="[bold green]>[bold green]>[bold green]>[hot_pink2] (BAGIAN MENU) [bold green]<[bold green]<[bold green]<",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] (BAGIAN MENU) [bold green]-[bold green]-[bold green]<",
         )
     )
     asepyusup = Console().input("[bold hot_pink2]   ╰─> ")
@@ -249,7 +249,7 @@ def menu():
                 "[italic green]Gunakan uid Publik,Jangan Perivat[italic white]",
                 subtitle="╭───",
                 subtitle_align="left",
-                title="[bold green]>[bold green]>[bold green]>[hot_pink2] (UID PUBLIK) [bold green]<[bold green]<[bold green]<",
+                title="[bold green]-[bold green]-[bold green]-[hot_pink2] (UID PUBLIK) [bold green]-[bold green]-[bold green]-",
             )
         )
         idt = Console().input("[bold hot_pink2]   ╰─> ")
@@ -310,7 +310,7 @@ def dump(idt, fields, cookie, token):
             "sec-fetch-user": "?1",
             "sec-ch-ua-mobile": "?1",
             "upgrade-insecure-requests": "1",
-            "user-agent": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36",
+            "user-agent": "Mozilla/5.0 (Linux; Android 11; AC2003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36",
             "accept-encoding": "gzip, deflate",
             "accept-language": "id-ID,id;q=0.9",
         }
@@ -360,7 +360,7 @@ def massal():
 	for user in uid:
 	    try:
 	       head = (
-	       {"user-agent": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36"
+	       {"user-agent": "Mozilla/5.0 (Linux; Android 11; AC2003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36"
 	       })
 	       if len(id) == 0:
 	           params = (
@@ -436,7 +436,7 @@ def multi_dump():
 		uid.append(Enter_id)
 	for user in uid:
 	    try:
-	       head = ({"user-agent": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36"})
+	       head = ({"user-agent": "Mozilla/5.0 (Linux; Android 11; AC2003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36"})
 	       if len(id) == 0:
 	           params = ({'access_token': token,'fields': "friends"})
 	       else:
@@ -457,8 +457,8 @@ def multi_dump():
 	    except requests.exceptions.ConnectionError:
 	        exit()
 	try:
-	      Console(width=50, style="bold hot_pink2").print(Panel(f"[italic white]sukses mengumpulkan [white]{len(id)}",title=f"[bold red]>[bold yellow]>[bold green]>[hot_pink2] ids total [bold green]<[bold yellow]<[bold red]<",style=f"bold hot_pink2"))
-	      Console(width=50, style="bold hot_pink2").print(Panel(f"[italic white]File You Save in [blod hot_pink2]{file_name}",title=f"[bold red]>[bold yellow]>[bold green]>[hot_pink2] SAVE [bold green]<[bold yellow]<[bold red]<",style=f"bold hot_pink2"))
+	      Console(width=50, style="bold hot_pink2").print(Panel(f"[italic white]sukses mengumpulkan [white]{len(id)}",title=f"[bold green]-[bold green]-[bold green]-[hot_pink2] ids total [bold green]-[bold green]-[bold green]-",style=f"bold hot_pink2"))
+	      Console(width=50, style="bold hot_pink2").print(Panel(f"[italic white]File You Save in [blod hot_pink2]{file_name}",title=f"[bold green]-[bold green]-[bold green]-[hot_pink2] SAVE [bold green]-[bold green]-[bold green]-",style=f"bold hot_pink2"))
 	      input(f"\n [ PRESS ENTER TO GO BACK ]  ")
 	      menu()
 	except requests.exceptions.ConnectionError:
@@ -486,7 +486,7 @@ def crack_file():
                 "[italic green] BUAT DUMP DULU KETIK Y/T[italic white]",
                 subtitle="╭───",
                 subtitle_align="left",
-                title="[bold green]>[bold green]>[bold green]>[hot_pink2] (Wapbaru DUMP) [bold green]<[bold green]<[bold green]<",
+                title="[bold green]-[bold green]-[bold green]-[hot_pink2] (Wapbaru DUMP) [bold green]-[bold green]-[bold green]-",
             )
         )
         kontol = Console().input("[bold hot_pink2]   ╰─> ")
@@ -592,7 +592,7 @@ def setting():
             "[italic green]1.[italic white] Urutan Olid ke New \n[italic green]2.[italic white] Urutan New ke olid \n[italic green]3.[italic white] Random ",
             subtitle="╭───",
             subtitle_align="left",
-            title="[bold green]>[bold green]>[bold green]>[hot_pink2] (BAGIAN URUTAN) [bold green]<[bold green]<[bold green]<",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] (BAGIAN URUTAN) [bold green]-[bold green]-[bold green]-",
         )
     )
     hu = Console().input("[bold hot_pink2]   ╰─> ")
@@ -627,7 +627,7 @@ def setting():
             "[italic green]1.[italic white] Validate",
             subtitle="╭───",
             subtitle_align="left",
-            title="[bold green]>[bold green]>[bold green]>[hot_pink2] (BAGIAN METHODE) [bold green]<[bold green]<[bold green]<",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] (BAGIAN METHODE) [bold green]-[bold green]-[bold green]-",
         )
     )
     hc = Console().input("[bold hot_pink2]   ╰─> ")
@@ -649,7 +649,7 @@ def setting():
             "[italic white]Password Tambahan Pilih [italic green](Y atu T)[italic white]",
             subtitle="╭───",
             subtitle_align="left",
-            title="[bold green]>[bold green]>[bold green]>[hot_pink2] (PASSWORD) [bold green]<[bold green]<[bold green]<",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] (PASSWORD) [bold green]-[bold green]-[bold green]-",
         )
     )
     pwplus = Console().input("[bold hot_pink2]   ╰─> ")
@@ -660,7 +660,7 @@ def setting():
                 "[italic white]Masukan kata sandi tambahan contoh [italic green]musik123,obatnyamuk[italic white]\nSaran kata sandi daeraah Target Contoh [italic green]majalengka,kadipaten,maja[italic white]",
                 subtitle="╭───",
                 subtitle_align="left",
-                title="[bold green]>[bold green]>[bold green]>[hot_pink2] (TAMBAHKAN PASSWORD) [bold green]<[bold green]<[bold green]<",
+                title="[bold green]-[bold green]-[bold green]-[hot_pink2] (TAMBAHKAN PASSWORD) [bold green]-[bold green]-[bold green]-",
             )
         )
         pwku = Console().input("[bold hot_pink2]   ╰─> ")
@@ -743,7 +743,7 @@ def passwrd():
             "[italic green]Pilih Lanjut apa Udah ? Pilih (Y/T) [italic white]",
             subtitle="╭───",
             subtitle_align="left",
-            title="[bold green]>[bold green]>[bold green]>[hot_pink2] (SELESAI) [bold green]<[bold green]<[bold green]<",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] (SELESAI) [bold green]-[bold green]-[bold green]-",
         )
     )
     woi = Console().input("[bold hot_pink2]   ╰─> ")
@@ -835,8 +835,8 @@ def asep():
             """[bold green]●[bold green] ●[bold green] ●                               
 
 
-[bold yellow]               𝕨𝕨𝕨.𝕎𝕒𝕡𝕓𝕒𝕣𝕦.𝕔𝕠𝕞 [bold white]""",
-            title="[bold green]>[bold green]>[bold green]>[hot_pink2] Visit Link [bold green]<[bold green]<[bold green]<",
+[bold white]               𝕨𝕨𝕨.𝕎𝕒𝕡𝕓𝕒𝕣𝕦.𝕔𝕠𝕞 [bold white]""",
+            title="[bold green]-[bold green]-[bold green]-[hot_pink2] facebook tools [bold green]-[bold green]-[bold green]-",
         )
     )
 
