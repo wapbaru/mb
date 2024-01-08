@@ -27,7 +27,7 @@ except ImportError:
 pretty.install()
 CON = sol()
 ugen = []
-cokbrut = []
+cigasong = []
 fields = []
 ses = requests.Session()
 princp = []
@@ -47,7 +47,7 @@ princp = []
     uid,
     lisensikuni,
 ) = ([], [], 0, 0, 0, [], [], [], [], [], [], [], [])
-cokbrut = []
+cigasong = []
 pwpluss, pwnya = [], []
 
 # ------------[ WARNA-COLOR ]--------------#
@@ -115,7 +115,7 @@ cpc = "CP-" + str(tgl) + "-" + str(bln) + "-" + str(thn) + ".txt"
 
 
 # ------------------[ MACHINE-SUPPORT ]---------------#
-def asepyusup(u):
+def dedi(u):
     for e in u + "\n":
         sys.stdout.write(e)
         sys.stdout.flush()
@@ -145,7 +145,7 @@ def loading():
 
 
 def login():
-    asep()
+    ded()
     Console(width=50, style="bold hot_pink2").print(
         Panel(
             "[italic green]masukan cookie anda saran jangan pake akun pribadi[italic white]",
@@ -195,7 +195,7 @@ def login():
 # ------------------[ BAGIAN-MENU ]----------------#
 def menu():
     os.system("cls" if os.name == "nt" else "clear")
-    asep()
+    ded()
     try:
         token = open(".tok.txt", "r").read()
         cok = open(".cok.txt", "r").read()
@@ -242,8 +242,8 @@ def menu():
             title="[bold green]-[bold green]-[bold green]-[hot_pink2] (BAGIAN MENU) [bold green]-[bold green]-[bold green]<",
         )
     )
-    asepyusup = Console().input("[bold hot_pink2]   ╰─> ")
-    if asepyusup in ["1"]:
+    dedi = Console().input("[bold hot_pink2]   ╰─> ")
+    if dedi in ["1"]:
         Console(width=50, style="bold hot_pink2").print(
             Panel(
                 "[italic green]Gunakan uid Publik,Jangan Perivat[italic white]",
@@ -255,15 +255,15 @@ def menu():
         idt = Console().input("[bold hot_pink2]   ╰─> ")
         dump(idt, "", {"cookie": cok}, token)
         setting()
-    elif asepyusup in ["2"]:
+    elif dedi in ["2"]:
         massal()
-    elif asepyusup in ["3"]:
+    elif dedi in ["3"]:
         crack_file()
-    elif asepyusup in ["4"]:
+    elif dedi in ["4"]:
         multi_dump()
-    elif asepyusup in ["5"]:
+    elif dedi in ["5"]:
         Gabung()
-    elif asepyusup in ["0"]:
+    elif dedi in ["0"]:
         os.system("rm -rf .tok.txt")
         os.system("rm -rf .cookie.txt")
         Console(width=50, style="bold hot_pink2").print(
@@ -353,7 +353,7 @@ def massal():
 	    exit()
 	ses=requests.Session()
 	bilangan = 0
-	for KOTG49H in range(kumpulkan):
+	for KUTA in range(kumpulkan):
 		bilangan+=1
 		Masukan = input(f">>> {H}Masukan Ids Ke {P}" +str(bilangan)+f' : ')
 		uid.append(Masukan)
@@ -430,7 +430,7 @@ def multi_dump():
 	    exit()
 	ses=requests.Session()
 	id_number = 0
-	for KOTG49H in range(id_limit):
+	for KUTA in range(id_limit):
 		id_number+=1
 		Enter_id = input(f">> {H}Masukkan Id Yang Ke {N}" + str(id_number) + f" : ")
 		uid.append(Enter_id)
@@ -457,14 +457,15 @@ def multi_dump():
 	    except requests.exceptions.ConnectionError:
 	        exit()
 	try:
-	      Console(width=50, style="bold hot_pink2").print(Panel(f"[italic white]sukses mengumpulkan [white]{len(id)}",title=f"[bold red]>[bold yellow]>[bold green]>[hot_pink2] ids total [bold green]<[bold yellow]<[bold red]<",style=f"bold hot_pink2"))
-	      Console(width=50, style="bold hot_pink2").print(Panel(f"[italic white]File You Save in [blod hot_pink2]{file_name}",title=f"[bold red]>[bold yellow]>[bold green]>[hot_pink2] SAVE [bold green]<[bold yellow]<[bold red]<",style=f"bold hot_pink2"))
+	      Console(width=50, style="bold hot_pink2").print(Panel(f"[italic white]sukses mengumpulkan [white]{len(id)}",title=f"[bold green]-[bold green]-[bold green]-[hot_pink2] ids total [bold green]-[bold green]-[bold green]-",style=f"bold hot_pink2"))
+	      Console(width=50, style="bold hot_pink2").print(Panel(f"[italic white]File You Save in [blod hot_pink2]{file_name}",title=f"[bold green]-[bold green]-[bold green]-[hot_pink2] SAVE [bold green]-[bold green]-[bold green]-",style=f"bold hot_pink2"))
 	      input(f"\n [ PRESS ENTER TO GO BACK ]  ")
 	      menu()
 	except requests.exceptions.ConnectionError:
 	    exit()
 	except (KeyError,IOError):
 		exit()
+
 
 # -------------[ CRACK-FROM-FILE ]------------------#
 def crack_file():
@@ -489,8 +490,8 @@ def crack_file():
                 title="[bold green]-[bold green]-[bold green]-[hot_pink2] (Wapbaru DUMP) [bold green]-[bold green]-[bold green]-",
             )
         )
-        kontol = Console().input("[bold hot_pink2]   ╰─> ")
-        if kontol in [""]:
+        ktmg = Console().input("[bold hot_pink2]   ╰─> ")
+        if ktmg in [""]:
             Console(width=50, style="bold hot_pink2").print(
                 Panel(
                     "[italic green]Pilih yang bener [italic white]",
@@ -498,7 +499,7 @@ def crack_file():
                     subtitle_align="left",
                 )
             )
-        elif kontol in ["y", "Y"]:
+        elif ktmg in ["y", "Y"]:
             Console(width=50, style="bold hot_pink2").print(
                 Panel(
                     "[italic green]Dump Dulu [italic white]",
@@ -508,7 +509,7 @@ def crack_file():
             )
             time.sleep(3)
             exit()
-        elif kontol in ["t", "T"]:
+        elif ktmg in ["t", "T"]:
             Console(width=50, style="bold hot_pink2").print(
                 Panel(
                     "[italic green]Terserah lu ajah Bang [italic white]",
@@ -572,7 +573,7 @@ def crack_file():
         except:
             Console(width=50, style="bold hot_pink2").print(
                 Panel(
-                    "[italic green]Cek Aing Ge Dump Hela [italic white]",
+                    "[italic green]Cek dump dulu.. [italic white]",
                     subtitle="",
                     subtitle_align="left",
                 )
@@ -828,7 +829,7 @@ def crack(idf, pwv):
     loop += 1
 
 
-def asep():
+def ded():
     os.system("cls" if os.name == "nt" else "clear")
     Console(width=50, style="bold hot_pink2").print(
         Panel(
