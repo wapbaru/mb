@@ -186,7 +186,7 @@ def login():
                 open(".tok.txt", "a").write(took)
                 open(".cok.txt", "a").write(cok)
                 exit(
-                    f"Token : {took} \ncookies aktif,jalankan ulang perintah nya dengan ketik python run.py"
+                    f"Token : {took} [yellow] \ncookies aktif, Silahkan jalankan ulang perintah nya dengan ketik python run.py [yellow]"
                 )
     except Exception as e:
         exit(e)
@@ -293,7 +293,7 @@ def Gabung():
         )
     )
     loading()
-    os.system("xdg-open https://www.facebook.com/zuck")
+    os.system("xdg-open https://www.facebook.com/idhostinger")
     time.sleep(5)
     menu()
 
@@ -486,7 +486,7 @@ def crack_file():
                 "[italic green] BUAT DUMP DULU KETIK Y/T[italic white]",
                 subtitle="╭───",
                 subtitle_align="left",
-                title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] (ASEP DUMP) [bold green]<[bold yellow]<[bold red]<",
+                title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] (Wapbaru DUMP) [bold green]<[bold yellow]<[bold red]<",
             )
         )
         kontol = Console().input("[bold hot_pink2]   ╰─> ")
@@ -511,7 +511,7 @@ def crack_file():
         elif kontol in ["t", "T"]:
             Console(width=50, style="bold hot_pink2").print(
                 Panel(
-                    "[italic green]Terserah lu ajah Bang [italic white]",
+                    "[italic green]Terserah kamu aja atuh [italic white]",
                     subtitle="",
                     subtitle_align="left",
                 )
@@ -572,7 +572,7 @@ def crack_file():
         except:
             Console(width=50, style="bold hot_pink2").print(
                 Panel(
-                    "[italic green]Cek Aing Ge Dump Hela [italic white]",
+                    "[italic green]Cek Coba dump dulu [italic white]",
                     subtitle="",
                     subtitle_align="left",
                 )
@@ -657,7 +657,7 @@ def setting():
         pwpluss.append("ya")
         Console(width=50, style="bold hot_pink2").print(
             Panel(
-                "[italic white]Masukan kata sandi tambahan contoh [italic green]Bagong,Ngentod[italic white]\nSaran kata sandi daeraah Target Contoh [italic green]kalimantan,bandung,jonggol[italic white]",
+                "[italic white]Masukan kata sandi tambahan contoh [italic green]musik123,obatnyamuk[italic white]\nSaran kata sandi daeraah Target Contoh [italic green]majalengka,kadipaten,maja[italic white]",
                 subtitle="╭───",
                 subtitle_align="left",
                 title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] (TAMBAHKAN PASSWORD) [bold green]<[bold yellow]<[bold red]<",
@@ -740,7 +740,7 @@ def passwrd():
     print("")
     Console(width=50, style="bold hot_pink2").print(
         Panel(
-            "[italic green]Lanjut apa Udah ? Pilih (Y/T) [italic white]",
+            "[italic green]Pilih Lanjut apa Udah ? Pilih (Y/T) [italic white]",
             subtitle="╭───",
             subtitle_align="left",
             title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] (SELESAI) [bold green]<[bold yellow]<[bold red]<",
@@ -805,7 +805,7 @@ def crack(idf, pwv):
                 )
                 tree.add(f"[bold red]useragent : {ua}", style="bold white")
                 print(tree)
-                open("CP/" + "ASEP-CP.txt", "a").write(idf + "|" + pw + "\n")
+                open("CP/" + "ded-fb.txt", "a").write(idf + "|" + pw + "\n")
                 akun.append(idf + "|" + pw)
                 cp += 1
                 break
@@ -833,14 +833,10 @@ def asep():
     Console(width=50, style="bold hot_pink2").print(
         Panel(
             """[bold red]●[bold yellow] ●[bold green] ●                               
- _____                __ __ _____             
-|  _  |___ ___ ___   |  |  |  |  |___ _ _ ___ 
-|     |_ -| -_| . |  |_   _|  |  |_ -| | | . |
-|__|__|___|___|  _|    |_| |_____|___|___|  _|
-              |_|                        |_|  
+ 𝕨𝕨𝕨.𝕎𝕒𝕡𝕓𝕒𝕣𝕦.𝕔𝕠𝕞
 
-[bold blue]                SUKAMAKAMUR[bold blue]""",
-            title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] SC GERATIS [bold green]<[bold yellow]<[bold red]<",
+[bold yellow]               Please Visit to Join [bold yellow]""",
+            title="[bold red]>[bold yellow]>[bold green]>[hot_pink2] Visit Link [bold green]<[bold yellow]<[bold red]<",
         )
     )
 
