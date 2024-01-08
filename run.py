@@ -148,7 +148,7 @@ def login():
     ded()
     Console(width=50, style="bold hot_pink2").print(
         Panel(
-            "[italic green]masukan cookie anda saran jangan pake akun pribadi[italic white]",
+            "[italic green]masukan cookie anda saran jangan pake akun pribadi[italic green]",
             subtitle="╭───",
             subtitle_align="left",
             title="[bold green]-[bold green]-[bold green]-[hot_pink2] (MASUKAN COOKIE) [bold green]-[bold green]-[bold green]-",
@@ -168,7 +168,7 @@ def login():
         if len(find) == 0:
             Console(width=50, style="bold hot_pink2").print(
                 Panel(
-                    "[italic green]Cookie Valid Silahkan cari cookies baru atu buat cookie Baru [italic white]",
+                    "[italic green]Cookie inValid Silahkan cari cookies baru atu buat cookie Baru [italic green]",
                     subtitle="",
                     subtitle_align="left",
                 )
@@ -186,7 +186,7 @@ def login():
                 open(".tok.txt", "a").write(took)
                 open(".cok.txt", "a").write(cok)
                 exit(
-                    f"Token : {took} \ncookies aktif,jalankan ulang perintah nya dengan ketik python run.py"
+                    f"Token : {took} [italic green] \ncookies aktif,jalankan ulang perintah nya dengan ketik python run.py[italic green]"
                 )
     except Exception as e:
         exit(e)
