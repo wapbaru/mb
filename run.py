@@ -839,7 +839,7 @@ def asep():
             title="[bold green]>[bold green]>[bold green]>[hot_pink2] Visit Link [bold green]<[bold green]<[bold green]<",
         )
     )
-red
+
 
 # -----------------------[ SYSTEM-CONTROL ]--------------------#
 if __name__ == "__main__":
