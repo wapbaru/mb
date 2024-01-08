@@ -77,7 +77,7 @@ P2 = "[#FFFFFF]"  # PUTIH
 J2 = "[#FF8F00]"  # JINGGA
 puti = '\x1b[1;97m'# WARNA-PUTIH
 colors = ["\033[0;30m", "\033[1;30m", "\033[0;31m", "\033[1;31m", "\033[0;32m", "\033[1;32m","\033[0;92m","\033[1;92m","\033[1;93m","\033[1;94m","\033[1;95m","\033[1;96m","\033[0;33m", "\033[1;33m", "\033[0;34m", "\033[1;34m", "\033[0;35m", "\033[1;35m", "\033[0;36m", "\033[1;36m", "\033[0;37m", "\033[1;37m", "\033[1;90m", "\033[0;91m","\033[1;91m", "\033[0;92m", "\033[1;93m", "\033[0;94m", "\033[1;94m", "\033[0;95m","\033[1;95m", "\033[0;96m", "\033[1;96m", "\033[0;97m", "\033[0;100m", "\033[1;100m","\033[0;101m", "\033[1;101m", "\033[0;102m", "\033[1;102m","\033[0;104m", "\033[1;104m", "\033[0;105m", "\033[1;105m", "\033[0;106m", "\033[1;106m"]
-asu = random.choice([m, h, u, b])
+rohadi = random.choice([m, h, u, b])
 # --------------------[ CONVERTER-BULAN ]--------------#
 dic = {
     "1": "January",
@@ -458,8 +458,8 @@ def multi_dump():
 	        exit()
 	try:
 	      Console(width=50, style="bold hot_pink2").print(Panel(f"[italic white]sukses mengumpulkan [white]{len(id)}",title=f"[bold green]-[bold green]-[bold green]-[hot_pink2] ids total [bold green]-[bold green]-[bold green]-",style=f"bold hot_pink2"))
-	      Console(width=50, style="bold hot_pink2").print(Panel(f"[italic white]File You Save in [blod hot_pink2]{file_name}",title=f"[bold green]-[bold green]-[bold green]-[hot_pink2] SAVE [bold green]-[bold green]-[bold green]-",style=f"bold hot_pink2"))
-	      input(f"\n [ PRESS ENTER TO GO BACK ]  ")
+	      Console(width=50, style="bold hot_pink2").print(Panel(f"[italic white]File tersimpan [blod hot_pink2]{file_name}",title=f"[bold green]-[bold green]-[bold green]-[hot_pink2] Simpan [bold green]-[bold green]-[bold green]-",style=f"bold hot_pink2"))
+	      input(f"\n [ enter untuk kembali ]  ")
 	      menu()
 	except requests.exceptions.ConnectionError:
 	    exit()
@@ -603,7 +603,7 @@ def setting():
 
     elif hu in ["2", "02"]:
         muda = []
-        for bacot in sorted(id):
+        for cgs in sorted(id):
             muda.append(bacot)
         bcm = len(muda)
         bcmi = bcm - 1
@@ -611,9 +611,9 @@ def setting():
             id2.append(muda[bcmi])
             bcmi -= 1
     elif hu in ["3", "03"]:
-        for bacot in id:
+        for cgs in id:
             xx = random.randint(0, len(id2))
-            id2.insert(xx, bacot)
+            id2.insert(xx, cgs)
     else:
         Console(width=50, style="bold hot_pink2").print(
             Panel(
