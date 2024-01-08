@@ -785,7 +785,7 @@ def iphonee():
 # --------------------[ METODE-MOBILE ]-----------------#
 def crack(idf, pwv):
     global loop, ok, cp
-    sys.stdout.write(f"\r╰─> Tunggu.. {str(loop)}/{len(id2)} OK-:{ok} CP-:{cp}"),
+    sys.stdout.write(f"\r╰─> Menunggu hasil dari [italic green]ID :[italic green].. {str(loop)}/{len(id2)} OK-:{ok} CP-:{cp}"),
     sys.stdout.flush()
     ses = requests.Session()
     ua = ua_valid()
