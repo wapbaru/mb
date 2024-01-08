@@ -157,7 +157,7 @@ def login():
     cok = Console().input("[bold hot_pink2]   ╰─> ")
     try:
         head = {
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36"
         }
         link = ses.get(
             "https://web.facebook.com/adsmanager?_rdc=1&_rdr",
@@ -310,7 +310,7 @@ def dump(idt, fields, cookie, token):
             "sec-fetch-user": "?1",
             "sec-ch-ua-mobile": "?1",
             "upgrade-insecure-requests": "1",
-            "user-agent": "Mozilla/5.0 (Linux; Android 11; AC2003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36",
+            "user-agent": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36",
             "accept-encoding": "gzip, deflate",
             "accept-language": "id-ID,id;q=0.9",
         }
@@ -360,7 +360,7 @@ def massal():
 	for user in uid:
 	    try:
 	       head = (
-	       {"user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Mobile Safari/537.36"
+	       {"user-agent": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36"
 	       })
 	       if len(id) == 0:
 	           params = (
@@ -436,7 +436,7 @@ def multi_dump():
 		uid.append(Enter_id)
 	for user in uid:
 	    try:
-	       head = ({"user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Mobile Safari/537.36"})
+	       head = ({"user-agent": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36"})
 	       if len(id) == 0:
 	           params = ({'access_token': token,'fields': "friends"})
 	       else:
