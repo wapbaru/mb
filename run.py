@@ -186,7 +186,7 @@ def login():
                 open(".tok.txt", "a").write(took)
                 open(".cok.txt", "a").write(cok)
                 exit(
-                    f"Token : {took} \ncookies aktif, Silahkan jalankan ulang perintah nya dengan ketik python run.py"
+                    f"Token : {took} \ncookies aktif, Silahkan jalankan ulang perintah"
                 )
     except Exception as e:
         exit(e)
