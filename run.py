@@ -236,7 +236,7 @@ def menu():
         login()
     Console(width=50, style="bold hot_pink2").print(
         Panel(
-            "[italic green]1.[italic white] Crack Publik [italic green] [ ON ] \n[italic green]2.[italic white] Crack Massal [italic green] [ ON ] \n[italic green]3.[italic white] Crack File [italic red] [ OFF ] \n[italic green]4.[italic white] Dump Id Ke File [italic green] [ ON ] \n[italic green]5.[italic white] Lapor Bug \n[italic green]0.[italic white] Keluar",
+            "[italic green]1.[italic white] Crack ID Publik [italic green] [ ON ] \n[italic green]2.[italic white] Crack ID Massal [italic green] [ ON ] \n[italic green]3.[italic white] Crack File [italic red] [ OFF ] \n[italic green]4.[italic white] Dump ID Ke File [italic green] [ ON ] \n[italic green]5.[italic white] Order Licensi \n[italic green]0.[italic white] Keluar",
             subtitle="╭───",
             subtitle_align="left",
             title="[bold green]-[bold green]-[bold green]-[hot_pink2] (BAGIAN MENU) [bold green]-[bold green]-[bold green]<",
@@ -287,13 +287,13 @@ def menu():
 def Gabung():
     Console(width=50, style="bold hot_pink2").print(
         Panel(
-            "[italic green]Tunggu Sedang Arah Kan ke Admin [italic white]",
+            "[italic green]Tunggu Sedang Arah Kan ke web [italic white]",
             subtitle="",
             subtitle_align="left",
         )
     )
     loading()
-    os.system("xdg-open https://www.facebook.com/idhostinger")
+    os.system("xdg-open https://www.wapbaru.com")
     time.sleep(5)
     menu()
 
@@ -786,7 +786,7 @@ def iphonee():
 # --------------------[ METODE-MOBILE ]-----------------#
 def crack(idf, pwv):
     global loop, ok, cp
-    sys.stdout.write(f"\r╭─> {str(loop)}/{len(id2)} OK-:{ok} CP-:{cp}"),
+    sys.stdout.write(f"\r╰─> Tunggu.. {str(loop)}/{len(id2)} OK-:{ok} CP-:{cp}"),
     sys.stdout.flush()
     ses = requests.Session()
     ua = ua_valid()
