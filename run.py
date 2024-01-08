@@ -246,7 +246,7 @@ def menu():
     if dedi in ["1"]:
         Console(width=50, style="bold hot_pink2").print(
             Panel(
-                "[italic green]Gunakan uid Publik,Jangan Perivat[italic white]",
+                "[italic green]Gunakan uid Publik,Jangan akun Private[italic white]",
                 subtitle="╭───",
                 subtitle_align="left",
                 title="[bold green]-[bold green]-[bold green]-[hot_pink2] (UID PUBLIK) [bold green]-[bold green]-[bold green]-",
@@ -658,7 +658,7 @@ def setting():
         pwpluss.append("ya")
         Console(width=50, style="bold hot_pink2").print(
             Panel(
-                "[italic white]Masukan kata sandi tambahan contoh [italic green]musik123,obatnyamuk[italic white]\nSaran kata sandi daeraah Target Contoh [italic green]majalengka,kadipaten,maja[italic white]",
+                "[italic white]Masukan kata sandi tambahan contoh [italic green]kipasangin,kalengkonguan,obatnyamuk.[italic white]\nSaran kata sandi daeraah Target Contoh [italic green]majalengka,kadipaten,rajagaluh,jatiwangi.[italic white]",
                 subtitle="╭───",
                 subtitle_align="left",
                 title="[bold green]-[bold green]-[bold green]-[hot_pink2] (TAMBAHKAN PASSWORD) [bold green]-[bold green]-[bold green]-",
