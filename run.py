@@ -555,9 +555,9 @@ def crack_file():
                     + H
                 )
                 print(" %s. %s ({h} %s {x}idz) " % (cih, isi, len(hem)))
-        geeh = input("\nPilih : ")
+        dedroh = input("\nPilih : ")
         try:
-            geh = lol[geeh]
+            roh = lol[dedroh]
         except KeyError:
             Console(width=50, style="bold hot_pink2").print(
                 Panel(
